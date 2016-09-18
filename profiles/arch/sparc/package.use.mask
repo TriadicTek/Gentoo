@@ -2,10 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-# Gilles Dartiguelongue <eva@gentoo.org> (11 Sep 2016)
-# networkmanager USE masked due to missing keywords
-gnome-extra/nm-applet teamd
-
 # Alexandre Rostovtsev <tetromino@gentoo.org> (28 Jun 2016)
 # Missing keywords on app-text/gspell - bug #587368
 >=app-editors/gedit-3.20 spell
@@ -382,3 +378,7 @@ app-admin/rsyslog zeromq
 # Marius Brehler <marfbre@linux.sungazer.de> (13 Aug 2015)
 # missing keyword
 >=sci-misc/boinc-7.4.42-r1 X
+
+# Alex McWhirter <alexmcwhirter@triadic.us> (16 Aug 2016)
+# OpenSSL assembly is broken on SPARC.
+>=dev-libs/openssl-1.0.2e asm
